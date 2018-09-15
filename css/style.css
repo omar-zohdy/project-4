@@ -1,7 +1,7 @@
 *{
     padding:0;
     margin:0;
-    
+    transition: all 0.3s ease-in-out 0s;
 }
 body{
     height:100%;
@@ -89,15 +89,84 @@ header #content .watch{
     margin-bottom:20px;
     margin-left:260px;
 }
- /* header #content .watch section {
-     padding-left:8px; 
-    height:50px;
-    
-     background-color: rgba(84,81 ,81,0.5); }*/
-/*
-header #content .watch .pic h2{
-    margin-bottom:35px;
-} */
+header #content .watch section{
+    height:40px;
+    background-color: rgba( 12 ,28,112 ,0.5 );
+    position:relative;
+    top: 535px;
+    left:2px;
+    right:5px;
+    overflow:hidden;
+}
+header #content .watch section h2{
+    margin-bottom:10px;
+} 
+
+header #content .watch section:hover {
+  position:relative;
+  top: 470px;
+  left:2px;
+  right:5px;
+  background-color: rgba( 12 ,28,112 ,0.5 );
+  text-align: justify;
+  line-height: 25px;
+  border-radius: 12px;
+  height: 107px;
+}
+
+header #content .iphonexs section{
+    height:40px;
+    background-color: rgba( 12 ,28,112 ,0.5 );
+    position:relative;
+    top: 535px;
+    left:2px;
+    right:5px;
+    overflow:hidden;
+}
+header #content .iphonexs section h2{
+    margin-bottom:10px;
+}
+
+header #content .iphonexs section:hover {
+    position:relative;
+    top: 470px;
+    left:2px;
+    right:5px;
+    background-color: rgba( 12 ,28,112 ,0.5 );
+    text-align: justify;
+    line-height: 25px;
+    border-radius: 12px;
+    height: 107px;
+ }
+
+
+
+header #content .iphonexr section{
+    height:40px;
+    background-color: rgba( 12 ,28,112 ,0.5 );
+    position:relative;
+    top: 535px;
+    left:2px;
+    right:5px;
+    overflow:hidden;
+}
+header #content .iphonexr section h2{
+    margin-bottom:10px;
+}
+
+header #content .iphonexr section:hover {
+    position:relative;
+    top: 470px;
+    left:2px;
+    right:5px;
+    background-color: rgba( 12 ,28,112 ,0.5 );
+    text-align: justify;
+    line-height: 25px;
+    border-radius: 12px;
+    height: 107px;
+ }
+
+
 
 header #content .iphonexs{
     background-image: url('../assets/iphonexs.jpg');
